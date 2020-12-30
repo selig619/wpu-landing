@@ -1,0 +1,131 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cb{
+    clear: both;
+}
+
+/* HEADERRRRRRR */
+#header{
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 100px;
+
+    float: left;
+}
+
+#header #logo{
+    background-image: url('./assets/theluxegrad.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 200px;
+    height: 100px;
+
+    margin-left: 20px;
+    float: left;
+}
+
+#header ul li{
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: block;
+    float: left;
+}
+
+#header ul li:hover{
+    border-bottom: 2px solid lightgreen;
+}
+
+#header ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+#header ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+#header ul li ul.dropdown li{
+    display: block;
+}
+
+/* CONTEEEEEEEENT */
+#content {
+    width: 80%;
+    margin: auto;
+}
+
+#content #slider{
+    background-image: url('./assets/slider.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 500px;  
+    width: 600px;
+    margin: 10px 200px;
+
+    float: left;
+}
+
+#catalog{
+    width: 80%;
+    margin: auto;
+}
+
+.gambar{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;  
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+}
+
+#produk{
+    width: 80%;
+    margin: auto;
+}
+
+.gambar2{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 350px;  
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+
+    
+}
+
+#desc{
+    width: 80%;
+    margin: 10px 10px;
+}
+
+
+
+/* FOOOOOOOTER */
+#footer{
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+    
+}
+
+#footer #nama{
+    padding-top: 20px;
+    color: white;
+    margin-top: 10px;
+}
